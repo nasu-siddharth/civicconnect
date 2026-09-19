@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CivicConnect – Public Issue Reporting
 
-# Run and deploy your AI Studio app
+CivicConnect is a responsive frontend concept that makes it easier for citizens to report problems in public places.
 
-This contains everything you need to run your app locally.
+People can report issues such as:
 
-View your app in AI Studio: https://ai.studio/apps/61e37342-eaa8-4081-b4ed-cccb00fd9796
+- Road damage and potholes
+- Broken streetlights
+- Garbage accumulation
+- Water-related problems
+- Other public infrastructure issues
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- Clean and responsive user interface
+- Public issue reporting form
+- Problem category selection
+- Location input
+- Photo upload
+- Simple form validation
+- Issue confirmation
+- Responsive design for desktop and mobile
+- Simple interactive elements
 
+## How It Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Report** – Describe the public problem.
+2. **Provide Details** – Add the category, location and photo.
+3. **Submit** – Send the report and receive an issue ID.
+
+## Technologies Used
+
+- React
+- TypeScript
+- HTML
+- CSS
+- JavaScript
+- Vite
+
+## Future Scope
+
+The concept can be extended with:
+
+- Backend and database integration
+- Interactive maps
+- Complaint tracking
+- Authority dashboard
+- Issue status updates
+- Image-based issue categorization
+
+## Project Purpose
+
+This project was created as a frontend development concept to demonstrate responsive UI design, frontend fundamentals and user-focused problem solving.
